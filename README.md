@@ -33,19 +33,21 @@ Las soluciones estudiadas incluyen:
 - SpeedTest (Cloudflare)
 
 ## 🏗️ Arquitecturas implementadas
-Se incluyen diagramas de las distintas topologías empleadas:
 - Conectividad IPv6 nativa
 - TunnelBroker (Hurricane Electric)
+- VPN Hide.me
 - WireGuard + VPS (Hetzner)
 
 ## ⚙️ Configuraciones
-En la carpeta `configs/` se incluyen ejemplos reales de configuración:
+En la carpeta `Configuraciones/` se incluyen ejemplos reales de configuración:
 - TunnelBroker en Windows y Ubuntu
 - WireGuard cliente-servidor
+- VPN Hide.me
+- Configuración Nativa
 - Reglas de forwarding y firewall IPv6
 
 ## 📊 Resultados
-Los resultados completos de las pruebas están documentados en la carpeta `tests/`,
+Los resultados completos de las pruebas están documentados en la carpeta `Resultados/`,
 incluyendo comparativas objetivas entre los distintos métodos.
 
 ## 📌 Conclusiones
@@ -55,9 +57,9 @@ incluyendo comparativas objetivas entre los distintos métodos.
 - VPNs comerciales son funcionales pero menos predecibles
 
 ## 🚀 Posibles mejoras futuras
-- Automatización del despliegue con Ansible
-- Monitorización continua
-- Integración con entornos cloud
-- Extensión a escenarios de Data Center
+- Ampliación de servicio
+- Comportamiento en diferente tramo horario
+- Uso de herramientas alternativas
+- Evaluación en diferentes sistemas operativos
 
 
